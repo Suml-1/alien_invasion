@@ -155,7 +155,7 @@ class AlienInvasion:
             self.settings.increase_speed()
             # 提升等级
             self.stats.level += 1
-            self.sb.prep_score()
+            self.sb.prep_level()
 
 
     def _fire_bullet(self):
